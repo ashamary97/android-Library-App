@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Dream With Open Eyes</string>
+    <string name="addbook">ADD BOOK</string>
+    <string name="menubar">MENU</string>
+    <string name="register">REGISTER</string>
+    <string name="searchbook">SEARCH BOOK</string>
+    <string name="backmenu">BACK TO MENU</string>
+    <string name="backlogin">BACK TO LOGIN</string>
+    <string name="search">SEARCH</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="login">LOGIN</string>
+    <string name="bookname">Enter Book Name</string>
+    <string name="author">Enter Author Name</string>
+    <string name="publisher">Enter Publisher Name</string>
+    <string name="year">Year of Publication</string>
+    <string name="price">Price of the Book</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+
+    <string name="name">Enter your Name</string>
+    <string name="mobile">Enter your Mobile Number</string>
+    <string name="email">Enter your Email</string>
+    <string name="confirm">Confirm yor password</string>
+
+</resources>

@@ -1,0 +1,60 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+      android:layout_margin="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:text="@string/menubar"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="@string/addbook"
+            android:textSize="50px"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/radius"
+            android:onClick="addbtnclick"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="@string/searchbook"
+            android:textSize="50px"
+            android:layout_margin="10dp"
+            android:onClick="searchbtnclick"
+            android:background="@drawable/radius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="@string/backlogin"
+            android:textSize="50px"
+            android:layout_margin="10dp"
+            android:onClick="backtologin"
+
+            android:background="@drawable/radius"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

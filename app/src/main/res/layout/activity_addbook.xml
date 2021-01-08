@@ -1,0 +1,99 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="60px"
+            android:layout_margin="10dp"
+            android:text="@string/addbook"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:hint="@string/bookname"
+            android:id="@+id/name"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            />
+        <EditText
+            android:hint="@string/author"
+            android:id="@+id/author"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            />
+        <EditText
+            android:hint="@string/publisher"
+            android:id="@+id/publisher"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            />
+        <EditText
+            android:hint="@string/year"
+            android:inputType="number"
+            android:id="@+id/year"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            />
+        <EditText
+            android:hint="@string/price"
+            android:inputType="number"
+            android:id="@+id/price"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="@string/submit"
+
+            android:textSize="50px"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/radius"
+            android:onClick="addbtnclick"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="@string/backmenu"
+            android:textSize="50px"
+            android:layout_margin="10dp"
+            android:background="@drawable/radius"
+            android:onClick="backtomenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
