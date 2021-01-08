@@ -40,6 +40,7 @@
                />
            <EditText
                android:hint="@string/password"
+               android:inputType="number"
                android:id="@+id/pass"
                android:drawableLeft="@drawable/password"
                android:drawablePadding="10dp"
